@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import LButtun from '../components/LButton/LButton'
-import leftArrow from '../assets/svgs/left-arrow.svg'
-import rightArrow from '../assets/svgs/right-arrow.svg'
+// import leftArrow from '../assets/svgs/left-arrow.svg'
+// import rightArrow from '../assets/svgs/right-arrow.svg'
 import restaurantOne from '../assets/images/restaurant1.png';
 
 const LandingPage = () => {

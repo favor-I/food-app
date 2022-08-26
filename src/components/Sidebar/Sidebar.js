@@ -1,9 +1,9 @@
 import React from 'react'
 import './sidebar.modules.css'
 // import cutleryIcon from './icons/curtlery-icon.svg'
-import cartIcon from './icons/cart-icon.svg'
-import locationIcon from './icons/location-icon.svg'
-import exitIcon from './icons/exit-icon.svg'
+// import cartIcon from './icons/cart-icon.svg'
+// import locationIcon from './icons/location-icon.svg'
+// import exitIcon from './icons/exit-icon.svg'
 import ess from './icons/S..svg'
 import homeIcon from './icons/home-icon.svg'
 
