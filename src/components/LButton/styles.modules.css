@@ -1,0 +1,10 @@
+.l-button {
+    background: rgba(255, 255, 255, 1);
+    border-radius: 2px;
+    font-size: 1.1em;
+    width: 150px;
+    height: 50px;
+}
+.l-button:hover {
+    cursor: pointer;
+}

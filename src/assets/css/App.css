@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,500;1,600&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.slider {
+    position: relative;
+}
+.bg-image {
+    height: 100vh;
+    overflow: hidden;
+}
+.content-text-sushi {
+    font-weight: 600;
+}
+.content-text {
+    /* border: 1px solid red; */
+    text-align: center;
+    position: absolute;
+    color: rgba(255, 255, 255, 1);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.content-text h1 {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 45px;
+}
+.content-text p {
+    width: 28em;
+}
+.content-text p, .content-btn {
+    margin-top: 2em;
+}
+.content-btn {
+    display: flex;
+    justify-content: center;
+}
+/* Menu Page */
+.menu-container {
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    /* justify-content: space-between; */
+    flex-direction: row;
+}
+.menu-showroom {
+    margin-right: 5em;
+    margin-top: 1.5em;
+    display: flex;
+    flex-direction: column;
+}
+.menu-item-card-container {
+    display: grid;
+    grid-gap: 1em 3em;
+    margin-top: 2em;
+    grid-template-columns: repeat(5, auto);
+}
+.menu-item-card img {
+    /* border: 1px solid red; */
+    /* border-radius: 10px; */
+    width: 160px;
+    height: 210px;
+}
+.menu-item-card p {
+    text-align: center;
+}
+/* Menu button style */
+.load-more-btn {
+    width: 9em;
+    height: 2.3em;
+    font-size: 12px;
+    margin: 1em 0em 0em 25em;
+    color: rgba(255, 255, 255, 1);
+    background: rgba(0, 0, 0, 1);
+}
+.load-more-btn:hover {
+    cursor: pointer;
+}

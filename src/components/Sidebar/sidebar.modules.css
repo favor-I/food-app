@@ -1,0 +1,27 @@
+/* Sidebar css */
+.sidebar {
+    background: rgba(0, 0, 0, 1);
+    justify-items: center;
+    display: grid;
+    /* grid-gap: ; */
+    padding-top: 3em;
+    border-radius: 1em;
+    margin-top: 1.8em;
+    margin-left: 3.5em;
+    margin-right: 5em;
+    height: 38em;
+    width: 4.5em;
+}
+.sidebar-item{
+    /* padding-top: 1em; */
+    height: 1.4em;
+}
+.sidebar-item  img{
+    /* padding: 1em; */
+    height: 1.8em;
+    width: 1.8em;
+    /* background: rgba(255, 255, 255, 1); */
+}
+.sidebar-item img:hover {
+    cursor: pointer;
+}
